@@ -1,0 +1,15 @@
+
+body{ background-color: rgb(204, 218, 227)}
+
+hr{
+border-style: none;
+border-bottom: 5px dotted;
+border-color: #4f4747;
+height: 20px;
+width: 5%}
+
+img{height: 200px}
+
+h1{color: #4f4747}
+
+h3{color: #4f4747}
