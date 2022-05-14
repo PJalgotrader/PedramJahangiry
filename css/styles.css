@@ -1,15 +1,145 @@
+body{
+text-align:center;
 
-body{ background-color: rgb(204, 218, 227)}
+}
+
+.intro {
+    width:50%;
+    margin: 20px auto;
+    font-size:large;
+}
+
+.contact-message{
+    width:50%;
+    margin: 20px auto 60px;
+}
+
+h1{
+
+    margin: 50px auto 50px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem; /*rem or em or % is dynamic font size. will change with broweser setting*/
+    color: rgb(34, 33, 83);
+}
+
+
+h2{
+    margin-top:0;
+    font-weight:normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px; /*rem or em or % is dynamic font size. will change with broweser setting*/
+    color: rgb(34, 33, 83);
+    padding-bottom: 10px;
+
+}
 
 hr{
-border-style: none;
-border-bottom: 5px dotted;
-border-color: #4f4747;
-height: 20px;
-width: 5%}
+    border:dotted rgb(34, 33, 83) 6px;
+    border-bottom:none;
+    width:5%;
+    margin:100px auto ;
 
-img{height: 200px}
+}
 
-h1{color: #4f4747}
 
-h3{color: #4f4747}
+.top-container{
+    background-color:rgb(204, 218, 227);
+}
+
+.middle-container{
+    background-color:rgb(204, 218, 227);
+    line-height: 1.5;
+    margin-bottom:20px;
+}
+
+.bottom-container{
+    padding: 50px 0 20px;
+    background-color:rgb(137, 162, 182);
+    }
+
+.pj-image{
+        height: 250px;
+        border-radius:10%;
+        margin-bottom: 50px;
+    }
+
+.fin-image{
+    border-radius:8px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+.algo{
+    text-decoration: rgb(3, 80, 3) wavy underline;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.contact-me{
+    width: 80%;
+    margin: 100px auto 0 auto;
+    line-height: 1.5;
+}
+
+
+.programming-image{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    border-radius:10%;
+}
+
+.courses-image{
+    width: 35%;
+    float: right;
+    margin-left: 20px;
+    border-radius:50%;
+}
+
+
+.btn {
+    background: #232153;
+    background-image: -webkit-linear-gradient(top, #232153, #8aa2b6);
+    background-image: -moz-linear-gradient(top, #232153, #8aa2b6);
+    background-image: -ms-linear-gradient(top, #232153, #8aa2b6);
+    background-image: -o-linear-gradient(top, #232153, #8aa2b6);
+    background-image: linear-gradient(to bottom, #232153, #8aa2b6);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #232153;
+    text-decoration: none;
+  }
+
+
+  a{
+    color:rgb(109, 109, 151) ;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px 20px;
+  }
+
+  a:hover{
+      color:rgb(34, 33, 83);
+  }
+
+  .copyright{
+      color:rgb(34, 33, 83);
+      font-size:0.75rem;
+      padding: 20px;
+  }
